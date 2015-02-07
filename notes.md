@@ -15,6 +15,8 @@ https://jawbone.com/up/developer/authentication
 - http://stackoverflow.com/questions/11405161/can-i-enable-ssl-in-sinatra-with-thin
 - http://stackoverflow.com/questions/8340943/deploying-sinatra-app-with-config-ru-on-heroku-cedar-stack
 - http://code.macournoyer.com/thin/usage/
+- http://stackoverflow.com/questions/14532959/how-do-you-save-values-into-a-yaml-file
+- http://nathanhoad.net/how-to-return-json-from-sinatra
 
 ### Thin Command for SSL
 > thin --rackup config.ru --ssl --ssl-key-file server.key --ssl-cert-f

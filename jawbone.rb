@@ -28,8 +28,8 @@ class MyApp < Sinatra::Base
   end
 
   get '/me' do
-    content_type :json
-    get_user_info.to_json
+    user_data = get_user_info["data"]
+    erb :me, :locals => { :user_data => user_data }
   end
 
   def request_access_token
